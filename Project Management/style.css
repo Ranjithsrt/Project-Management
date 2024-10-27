@@ -1,0 +1,884 @@
+/* Browser reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Global Styles */
+
+/* Header */
+
+header {
+  background-image: radial-gradient(#8fb3ff 0%,
+      #9d6be8 28%,
+      #de2778 54%,
+      #b03de2 100%);
+
+  background-image: linear-gradient(#e37777 1%,
+      #f2554c 38%,
+      #fec458 61%,
+      #fec957 84%,
+      #db788d 100%);
+
+  background-image: linear-gradient(#e73635 0%, #6ad5ff 100%);
+  margin: 0 auto;
+  width: 100%;
+  height: 710px;
+  color: white;
+}
+
+.my-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 25px;
+}
+
+/* top Nav Bar */
+
+.top-Nav-Bar {
+  display: flex;
+  gap: 10px;
+}
+
+.top-Nav-Bar a {
+  color: white;
+  text-decoration: none;
+}
+
+/* top Nav-Bar Button */
+
+.top-Nav-btn {
+  padding: 8px;
+  font-size: 10px;
+  border-radius: 10px;
+  border: 0;
+  background-color: rgba(255, 255, 255, 0.13);
+  cursor: pointer;
+}
+
+.top-Nav-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+/* First Banner  */
+
+.top-Banner {
+  margin-top: 100px;
+  font-family: "Poppins", serif;
+}
+
+.top-Banner,
+h1 {
+  text-align: center;
+}
+
+.top-Banner-div>p {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.top-Banner>h1 {
+  font-size: 75px;
+  color: white;
+}
+
+.top-Banner div p {
+  margin-top: 30px;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.top-Banner button {
+  margin-top: 70px;
+  padding: 10px;
+  background-color: #231a36;
+  border-radius: 10px;
+}
+
+.top-Banner a {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Marketing section   */
+
+.marketing-banner {
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  color: #b3b7bc;
+  padding: 30px;
+}
+
+.marketing-banner>h5 {
+  text-align: center;
+}
+
+.marketing-logo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  justify-content: baseline;
+}
+
+.marketing-logo img:nth-child(1) {
+  width: 60px;
+  height: 20px;
+  margin-bottom: 30px;
+}
+
+.marketing-logo img:nth-child(2) {
+  width: 60px;
+  height: 20px;
+  margin-bottom: 30px;
+}
+
+.marketing-logo img:nth-child(3) {
+  width: 60px;
+  height: 13px;
+  margin-bottom: 30px;
+}
+
+.marketing-logo img:nth-child(4) {
+  width: 60px;
+  height: 15px;
+  margin-bottom: 30px;
+}
+
+.marketing-logo img:nth-child(5) {
+  width: 60px;
+  height: 13px;
+  margin-bottom: 30px;
+}
+
+.marketing-div>h3 {
+  color: rgb(0, 0, 0);
+  margin: 10px 0;
+}
+
+.marketing-div>p {
+  color: #426666;
+  line-height: 25px;
+  font-size: 12px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* INFLUENCER section  */
+
+.Influencer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.influencer-div {
+  width: 25%;
+
+  flex-wrap: wrap;
+  text-align: start;
+  line-height: 25px;
+}
+
+.influencer-div>h3 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.Influencer-div1 img {
+  width: 75%;
+}
+
+/* Community */
+
+.Communitydiv img {
+  width: 240px;
+}
+
+.Community-banner {
+  background-color: rgb(248, 248, 248);
+  color: white;
+  padding: 30px;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.Community-div1>h3 {
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.Community-div1 {
+  width: 230px;
+  padding: 5px;
+}
+
+/* Service */
+
+.services {
+  color: white;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.services-div {
+  width: 25%;
+  flex-wrap: wrap;
+  line-height: 25px;
+}
+
+.services-div2 img {
+  width: 75%;
+}
+
+.services-div>h3 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* social media profiles  */
+
+.socialmedia {
+  background-color: #231a36;
+  color: white;
+  padding: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.socialmedia-div>h3 {
+  font-size: 38px;
+  margin: 50px 0;
+  font-family: "Poppins", serif;
+}
+
+.socialmedia-div h5 {
+  color: #7b9292;
+  text-align: center;
+  margin: 75px 0;
+}
+
+.media-profile {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(255, 246, 246);
+  gap: 100px;
+}
+
+.Media-A {
+  width: 100px;
+}
+
+.Media-A>h6 {
+  color: #426666;
+}
+
+/* Clients section  */
+
+.Clients-section {
+  color: white;
+}
+
+.clients-div>h3 {
+  text-align: center;
+
+  padding: 10px;
+}
+
+.clients-div:nth-child(1)>p {
+  text-align: center;
+  padding: 20px;
+}
+
+.clients-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 50px;
+
+  font-size: 15px;
+  position: relative;
+}
+
+.clients-profile>div img {
+  width: 250px;
+}
+
+.Clients-followers {
+  background-color: rgba(255, 255, 255, 0.727);
+  color: black;
+  width: 200px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 105px;
+  padding: 5px;
+}
+
+.Clients-followers {
+  display: flex;
+  justify-content: baseline;
+  flex-wrap: wrap;
+}
+
+.FOLLOWER-A {
+  width: 50%;
+  padding: 3px;
+  font-size: 13px;
+  gap: 5px;
+}
+
+.FOLLOWER-B {
+  width: 50%;
+  gap: 5px;
+  font-size: 13px;
+}
+
+.id-Name {
+  position: relative;
+  bottom: 100px;
+  color: rgb(98, 98, 102);
+}
+
+.FOLLOWER-C>a {
+  position: relative;
+  right: 65px;
+}
+
+/* <!-- Subscribe section --> */
+
+.btm-banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  color: #426666;
+}
+
+.btm-banner>h5 {
+  font-size: 50px;
+  font-family: "Poppins", serif;
+  margin: 100px 0 50px 0;
+  color: black;
+}
+
+/* profile section */
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.profile-png>img {
+  width: 50%;
+}
+
+.profile-div {
+  width: 350px;
+}
+
+/* Subscribe section */
+
+.Subscribe {
+  display: flex;
+  justify-content: center;
+
+  padding: 10px;
+  width: 650px;
+}
+
+.Subscribe-div {
+  background-image: linear-gradient(#e73635 0%, #6ad5ff 100%);
+  padding: 30px;
+  border-radius: 25px;
+  color: white;
+  margin: 100px 0;
+  text-align: center;
+}
+
+.Subscribe-div>h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.Subscribe-div>button {
+  background-color: #231a36;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.Subscribe-div>button img {
+  position: relative;
+  top: 3px;
+}
+
+/* Footer section */
+
+ footer{
+
+
+  width: 1000px;
+ 
+
+
+ }
+.my-footer {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  justify-content: baseline;
+  align-items: center;
+  margin: 100px 0;
+ 
+}
+
+/* top Nav Bar */
+
+.footer-Nav-Bar {
+  display: flex;
+  justify-content: baseline;
+  gap: 10px;
+
+  /* width: 500px; */
+}
+
+.footer-Nav-Bar a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+ 
+}
+
+/* social media logo */
+
+.socia-medialogo {
+  display: flex;
+  justify-content: baseline;
+  gap: 10px;
+}
+
+.socia-medialogo>a img {
+  width: 10px;
+  height: 10px;
+}
+
+/* copy rights */
+
+.copy-rights {
+  width: 1000px;
+  margin-top: 35px;
+  text-align: center;
+  color: #959595;
+}
+
+/* Media query */
+
+@media only screen and (max-width: 390px) {
+  header {
+    background-image: linear-gradient(#e73635 0%, #6ad5ff 100%);
+
+    width: 1000px;
+    height: 710px;
+    color: white;
+  }
+
+  .my-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+  }
+
+  /* top Nav Bar */
+
+  .top-Nav-Bar {
+    display: flex;
+    gap: 20px;
+  }
+
+  .top-Nav-Bar a {
+    color: white;
+    text-decoration: none;
+  }
+
+  /* top Nav-Bar Button */
+
+  .top-Nav-btn {
+    padding: 8px;
+    font-size: 10px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgba(255, 255, 255, 0.13);
+    cursor: pointer;
+  }
+
+  .top-Nav-btn a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+/* First Banner   */
+
+.top-Banner {
+  margin-top: 100px;
+  font-family: "Poppins", serif;
+}
+
+.top-Banner,
+h1 {
+  text-align: center;
+   color: white;
+}
+
+.top-Banner-div>p {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.top-Banner h1 {
+  font-size: 75px;
+}
+
+.top-Banner div p {
+  margin-top: 30px;
+  font-size: 10px;
+  font-weight: 200;
+}
+
+.top-Banner button {
+  margin-top: 70px;
+  padding: 10px;
+  background-color: #231a36;
+  border-radius: 10px;
+}
+
+.top-Banner a {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Marketing section   */
+
+.marketing-banner {
+  width: 1000px;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  color: #b3b7bc;
+  padding: 30px;
+}
+
+.marketing-banner>h5 {
+  text-align: center;
+}
+
+.marketing-logo {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  justify-content: baseline;
+}
+
+.marketing-logo img:nth-child(1) {
+  width: 60px;
+  height: 20px;
+  margin-bottom: 30px;
+}
+
+.marketing-logo img:nth-child(2) {
+  width: 60px;
+  height: 20px;
+  margin-bottom: 30px;
+}
+
+.marketing-logo img:nth-child(3) {
+  width: 60px;
+  height: 13px;
+  margin-bottom: 30px;
+}
+
+.marketing-logo img:nth-child(4) {
+  width: 60px;
+  height: 15px;
+  margin-bottom: 30px;
+}
+
+.marketing-logo img:nth-child(5) {
+  width: 60px;
+  height: 13px;
+  margin-bottom: 30px;
+}
+
+.marketing-div>h3 {
+  color: rgb(0, 0, 0);
+  margin: 10px 0;
+}
+
+.marketing-div>p {
+  color: #426666;
+  line-height: 25px;
+  font-size: 12px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+/* INFLUENCER section  */
+
+.Influencer {
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+
+.influencer-div {
+  width: 25%;
+  flex-wrap: wrap;
+  text-align: start;
+  line-height: 25px;
+}
+
+.Influencer-div1 img {
+  width: 75%;
+}
+
+/* Community */
+
+.Communitydiv img {
+  width: 240px;
+}
+
+.Community-banner {
+  background-color: rgb(248, 248, 248);
+  color: white;
+  padding: 30px;
+  width: 1000px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Community-div1 h3,
+h5,
+p,
+a {
+  text-align: start;
+  line-height: 25px;
+}
+
+.Community-div1 {
+  width: 230px;
+  padding: 5px;
+}
+
+/* Service */
+
+.services {
+  color: white;
+  width: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.services-div {
+  width: 25%;
+  flex-wrap: wrap;
+  line-height: 25px;
+}
+
+.services-div2 img {
+  width: 75%;
+}
+
+/* social media profiles  */
+
+.socialmedia {
+  width: 1000px;
+  background-color: #231a36;
+  color: white;
+  padding: 30px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.socialmedia-div h3 {
+  font-size: 38px;
+  margin: 50px 0;
+  font-family: "Poppins", serif;
+}
+
+.socialmedia-div h5 {
+  color: #7b9292;
+  text-align: center;
+  margin: 75px 0;
+}
+
+.media-profile {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(255, 246, 246);
+  gap: 100px;
+}
+
+.Media-A {
+  width: 100px;
+}
+
+.Media-A>h6 {
+  color: #426666;
+}
+
+/* Clients section  */
+
+.Clients-section {
+  color: white;
+  width: 1000px;
+}
+
+.clients-div>h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.clients-div:nth-child(1)>p {
+  text-align: center;
+  padding: 20px;
+}
+
+.clients-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 75px;
+  font-size: 15px;
+  position: relative;
+}
+
+.clients-profile>div img {
+  width: 250px;
+}
+
+.Clients-followers {
+  background-color: rgba(255, 255, 255, 0.727);
+  color: black;
+  width: 200px;
+  font-size: 15px;
+  position: absolute;
+  bottom: 105px;
+  padding: 5px;
+}
+
+.Clients-followers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.FOLLOWER-A {
+  width: 50%;
+  padding: 3px;
+  font-size: 13px;
+  gap: 5px;
+}
+
+.FOLLOWER-B {
+  width: 50%;
+  gap: 5px;
+  font-size: 13px;
+}
+
+.id-Name {
+  position: relative;
+  bottom: 100px;
+  color: rgb(98, 98, 102);
+}
+
+/* <!-- Subscribe section --> */
+
+.btm-banner {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+  color: #426666;
+}
+
+.btm-banner>h5 {
+  font-size: 50px;
+  font-family: "Poppins", serif;
+  margin: 100px 0 50px 0;
+  color: black;
+}
+
+/* profile section */
+
+.profile {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+
+.profile-png>img {
+  width: 50%;
+}
+
+.profile-div {
+  width: 350px;
+}
+
+/* Subscribe section */
+
+.Subscribe {
+  width: 1000px;
+}
+
+.Subscribe>div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer section */
+
+.my-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: baseline;
+  align-items: center;
+  margin: 100px 0;
+  width: 1000px;
+}
+
+/* copy rights */
+
+.copy-rights {
+  width: 1000px;
+  margin-top: 35px;
+  text-align: center;
+  color: #959595;
+}
+
+/* ----END----- */
